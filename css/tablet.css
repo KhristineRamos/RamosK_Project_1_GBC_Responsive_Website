@@ -1,0 +1,564 @@
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body{
+        background-color: #fff;
+        font-family: "Lato", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 100%;
+        text-rendering: optimizeLegibility;
+    }
+    
+    
+    
+    /*------- HEADER BEGINS -------*/
+    
+    header{
+        background-image: url(../img/background.gif);
+        background-size: cover;
+        height: 100vh;
+        border-bottom-right-radius: 400px;
+        border-bottom-left-radius: 400px;
+        border-style:outset;
+        border: 8px dashed #ffffff;
+    }
+    
+    .header-top{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        z-index: 100;
+        
+    }
+    
+    
+    h1{
+        color: #fff;
+        font-size: 48px;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        margin-bottom: 15px;
+    
+    }
+    
+    
+    .logo{
+        width: 100px;
+        height: auto;
+        position: fixed;
+        top: 10px;
+        left: 10px;
+        border: 2px solid white;
+        background-color: #0065a4;   
+    }
+    
+    
+    .logo2{
+        width: 100%;
+        margin-left: -60px;
+        margin-top: 130px;
+    }
+    
+    .hero-text-box{
+        position: absolute;
+        text-align: center;
+        text-transform: uppercase;
+        top: 50%;
+        left: 25%;
+        width: 50%;
+        
+    }
+    
+    .title{
+        position: relative;
+        top: -150px;
+        font-family: "Big Shoulders" , sans-serif;
+        font-size: 125px;
+        font-weight: 1000;
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke-color: #0065a4;
+        -webkit-text-stroke-width: 3px;
+        text-transform: uppercase;
+        letter-spacing: -7px;
+        line-height: 90px;
+        word-spacing: 15px;
+        margin-bottom: -90px;
+        text-align: center;
+    
+    }
+    
+    .subtitle{
+        position: relative;
+        font-family: "Big Shoulders" , sans-serif;
+        top: -170px;
+        font-size: 40px;
+        font-weight: 900;
+        -webkit-text-fill-color: #fff;
+        -webkit-text-stroke-color: #0065a4;
+        -webkit-text-stroke-width: 2px;
+        text-transform: uppercase;
+        letter-spacing: -2px;
+        line-height: 5px;
+        word-spacing: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    
+    .btn-btn-full:link, 
+    .btn-btn-full:visited{
+        color: #fff;
+        background-color: #1877F2;
+        padding: 10px 30px 10px 30px;
+        border: 2px solid white;
+        margin-right: 15px;
+        text-decoration: none;
+        border-radius: 25px;
+        margin-right: 70px;
+    
+    }
+    
+    .btn-btn-inverse:link,
+    .btn-btn-inverse:visited{
+        color: #fff;
+        border: 2px solid white;
+        background-color:  #1877F2;
+        padding: 10px 30px 10px 30px;
+        text-decoration: none;
+        border-radius: 30px;
+    }
+    
+    .btn-btn-full:hover, 
+    .btn-btn-full:active{
+        background-color: #0065a4;
+        opacity: .8;
+        text-decoration: underline;
+    }
+    
+    .btn-btn-inverse:hover,
+    .btn-btn-inverse:active {
+        background-color: #0065a4;
+        opacity: .8;
+        text-decoration: underline;
+    }
+    
+    
+    
+    
+    /*------- NAVIGATION BEGINS -------*/
+    
+    .main-nav{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        padding: 10px;
+        background-color: #0065a4;
+        text-align: right;
+        
+    }
+    
+    .main-nav ul{
+        list-style-type: none;
+    }
+    
+    .main-nav li{
+        display: inline;
+        margin-left: 10px;
+    }
+    
+    .main-nav a:link, 
+    .main-nav a:visited{
+    
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 5px;
+    
+    }
+    
+    .main-nav a:hover,
+    .main-nav a:active{
+        border-top: 5px solid #fff; /* #0065a4*/
+    }
+    
+    
+    
+    
+    /*------- SECTIONS BEGINS --------*/
+    section{
+        padding-top: 80px;
+    }
+    
+    /*------- SECTIONS ABOUT --------*/
+    
+    .section-about{
+        width: 100%;
+        display: flow-root;
+        
+    }
+    
+    
+    .section-about h1{
+        color: #0065a4;
+        text-align: center;
+        /* font-weight: 700; */
+    }
+    
+    .section-about h1::after{
+        content: "";
+        display: block;
+        width: 70%;
+        height: 2px;
+        background-color: #0065a4;
+        margin: 50px auto;
+    }
+    
+    .about-content{
+        column-count: 2;
+        margin-left: 50px;
+        margin-right: 80px;
+    }
+    
+    .about-content p{
+        margin-left: 50px;
+        font-family: "Istok Web" , sans-serif;
+        font-weight: 300;
+    }
+    
+    .building{
+        max-width: 80%;
+        border-radius: 40px;
+        float: left;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+    
+    .classroom {
+        max-width: 70%;
+        border-radius: 40px;
+        float: right;
+        margin-right: 30px;
+    }
+    
+    .interior {
+        max-width: 70%;
+        border-radius: 40px;
+        float: right;
+        margin-right: 30px;
+        margin-bottom: 20px;
+    }
+    
+    
+    
+    /*------- SECTIONS SEMESTERS --------*/
+      
+    .section-semesters{
+        width: 100%;
+        display: flow-root;
+    }
+    
+    
+    .section-semesters h1{
+        color: #0065a4;
+        text-align: center;
+    }
+    
+    .section-semesters h1::after{
+        content: "";
+        display: block;
+        width: 70%;
+        height: 2px;
+        background-color: #0065a4;
+        margin: 50px auto;
+    }
+    
+    .semester-content{
+        column-count: 1;
+    }
+    
+    .semester-content p{
+        margin-left: 100px;
+        margin-right: 300px;
+        font-family: "Istok Web", sans-serif;
+        font-weight: 300;
+        font-size: medium;
+        line-height: 16px;
+        margin-bottom: 80px;
+    }
+    
+    .semester-content h3{
+        top: 0;
+        margin-left: 100px;
+        margin-bottom: 10px;
+    }
+    
+    .semester-content ul{
+        list-style-type: none;
+        margin-left: 350px;
+        margin-right: 70px;
+    }
+    
+    .semester-content li{
+        display: inline-block;
+        margin-bottom: 40px;
+    }
+    
+    .semester-content a {
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 50px;
+        margin-right: 20px;
+        color: #fff;
+        border-radius: 12px;
+        font-family: "Lato", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        text-align: center;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    
+    .semester-content a:hover,
+    .semester-content a:active{
+        background-color: #0065a4;
+    
+    
+    }
+    
+    
+    .semester-1 {
+        background-color: rgb(255, 119, 0);
+    }
+    
+    .semester-2 {
+        background-color: rgb(100, 165, 205);
+    }
+    
+    .semester-3 {
+        background-color:  plum;
+    }
+    
+    .semester-4 {
+        background-color: rgb(98, 71, 136);
+    }
+    
+    .semester-5 {
+        background-color:   rgb(255, 169, 30);
+    }
+    
+    .semester-6 {
+        background-color: rgb(48, 147, 48); 
+    } 
+    
+    
+    
+    /*------- SECTION PORTFOLIO ------*/
+    
+    .section-portfolio{
+        width: 100%;
+        display: flow-root;
+    }
+    
+    
+    .section-portfolio h1{
+        color: #0065a4;
+        text-align: center;
+        /* font-weight: 700; */
+    }
+    
+    .section-portfolio h1::after{
+        content: "";
+        display: block;
+        width: 70%;
+        height: 2px;
+        background-color: #0065a4;
+        margin: 50px auto;
+    }
+    
+    .section-portfolio ul{
+        list-style-type: none;
+    }
+    
+    .section-portfolio li{
+        width: 25%;
+        display: block;
+        float: left;
+    }
+    
+    .section-portfolio figure{
+        width: 100%;
+        margin: 0;
+        background-color: #000;
+        overflow: hidden;
+    }
+    
+    .section-portfolio img{
+        opacity: .5;
+        width: 100%;
+        height: auto;
+        transform: scale(1.15);
+        transition: transform .5s, opacity .1s, filter 1s;
+        filter: grayscale(100%);
+    }
+    
+    .section-portfolio img:hover{
+        opacity: 1;
+        transform: scale(1.025);
+        filter: none;
+        cursor: pointer;
+    }
+    
+    
+    
+    /*------- SECTION TESTIMONIALS -------*/
+    
+    
+    
+    .section-testimonials-inner{
+        max-width: 1200px;
+        margin: 0 auto;
+        color: black;
+        display: flow-root;
+        
+    }
+    
+    .section-testimonials h1{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    
+    .section-testimonials article{
+        margin-left: 120px;
+        margin-bottom: 50px;
+        width: 30%;
+        float: left;
+        font-family: "Istok Web", sans-serif;
+        font-size: medium;
+        font-weight: 200;
+    }
+    
+    .section-testimonials blockquote::before{
+        content: "\201c";
+        font-size: 400%;
+        display: block;
+        position: absolute;
+        top: -25px;
+        left: -25px;
+    }
+    
+    .section-testimonials blockquote{
+        font-size: 18px;
+        position: relative;
+        line-height: 1.5;
+    }
+    
+    .section-testimonials cite{
+        font-size: 16px;
+        font-weight: 100;
+        font-style: italic;
+        display: block;
+        margin-top: 25px;
+    }
+    
+    .section-testimonials cite img{
+        width: 50px;
+        border-radius: 50%;
+        margin-right: 10px;
+        vertical-align: middle;
+        border: 3px solid #0065a4;
+    }
+    
+    .section-testimonials{
+        margin-bottom: 90px;
+    }
+    
+    
+    
+    /*------- SECTION FOOTER -------*/
+    
+    footer{
+        background-color: #333;
+        margin-top: 40px;
+        padding: 40px;
+    }
+    
+    .section-footer{
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flow-root;
+    }
+    
+    .footer-nav{
+        list-style-type: none;
+        float: left;
+        margin-right: 20px;
+    }
+    
+    .footer-nav li,
+    .footer-social li{
+        display: inline-block;
+        margin-right: 20px;
+    
+    }
+    
+    .footer-social{
+        float: right;
+    }
+    
+    footer p{
+        clear: both;
+        text-align: center;
+        color: #ccc;
+        margin-top: 150px;
+    }
+    
+    .footer-nav a:link,
+    .footer-nav a:visited,
+    
+    .footer-social a:link,
+    .footer-social a:visited{
+        text-decoration: none;
+        color: #666;
+        border: 0;
+    }
+    
+    .footer-gif{
+        max-width: 30%;
+        display: block;
+        margin-left: 250px;
+        margin-bottom: 20px;
+        margin-top: -10px;
+    
+    }
+    
+    .footer-nav a:hover,
+    .footer-nav a:active{
+        color: #ccc;
+    }
+    .fa-facebook:hover{
+        color: #1877F2;
+    
+    }
+    .fa-x-twitter:hover{
+        color: #000000;
+    
+    }
+    
+    .fa-instagram:hover{
+        color: #E4405F;
+    
+    }
+    
+    .fa-tiktok:hover{
+        color: #ffffff;
+    
+    }
+}    
